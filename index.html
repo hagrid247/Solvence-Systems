@@ -1,69 +1,118 @@
 <!DOCTYPE html>
-<html lang="fi">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Solvessa Systems - Digitaaliset työkalut</title>
+  <title>PMax Junk Excluder - Solvessa Systems</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col justify-between font-sans antialiased">
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col justify-between font-sans antialiased selection:bg-emerald-500 selection:text-slate-950">
 
-  <main class="max-w-xl mx-auto px-5 py-12 text-center w-full">
-    <span class="inline-block py-1 px-3 rounded-full bg-emerald-500/10 text-emerald-400 text-xs font-semibold uppercase tracking-wider mb-4 border border-emerald-500/20">
-      Automaatio & Työkalut
-    </span>
-    <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Solvessa Systems</h1>
-    <p class="mt-3 text-slate-400 text-sm sm:text-base leading-relaxed">
-      Korkealaatuiset automaatioskriptit ja työkalut toistuvien datatehtävien ja työnkulkujen tehostamiseen.
+  <!-- Yläosa & Otsikko -->
+  <main class="max-w-2xl mx-auto px-5 py-16 text-center w-full">
+    <div class="inline-flex items-center gap-2 py-1 px-3 rounded-full bg-emerald-500/10 text-emerald-400 text-xs font-semibold uppercase tracking-wider mb-6 border border-emerald-500/20">
+      <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+      Google Ads Automation
+    </div>
+    
+    <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">
+      Stop wasting PMax ad spend on junk clicks. Automatically.
+    </h1>
+    
+    <p class="mt-4 text-slate-400 text-base sm:text-lg leading-relaxed max-w-xl mx-auto">
+      Most Performance Max campaigns quietly bleed budget on mobile games and click farms. 
+      <strong class="text-slate-200 font-semibold">PMax Junk Excluder</strong> cleans up your placements weekly and excludes them account-wide—no monthly subscriptions.
     </p>
 
-    <!-- Tuotekortti -->
-    <div class="mt-8 bg-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-8 text-left shadow-xl">
-      <div class="flex justify-between items-baseline">
-        <h2 class="text-lg sm:text-xl font-bold text-white">Full License & Source Code</h2>
-        <span class="text-2xl font-black text-emerald-400">69 €</span>
+    <!-- Ominaisuudet / Miksi tämä toimii -->
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 my-8 text-left">
+      <div class="bg-slate-900/60 border border-slate-800/80 p-4 rounded-xl">
+        <div class="text-emerald-400 font-bold text-sm mb-1">⚡ Auto-Scheduled</div>
+        <div class="text-xs text-slate-400 leading-normal">Runs weekly in the background via Google Ads Scripts. Zero upkeep.</div>
       </div>
-      <p class="text-slate-500 text-xs mt-1">Kertamaksu. Sisältää täyden lähdekoodin ja tulevat päivitykset.</p>
-      
-      <ul class="mt-6 space-y-2.5 text-xs sm:text-sm text-slate-300">
-        <li class="flex items-center gap-2">
-          <span class="text-emerald-400">✓</span> Täydellinen Python-lähdekoodi ja asennusohjeet
-        </li>
-        <li class="flex items-center gap-2">
-          <span class="text-emerald-400">✓</span> Välitön digitaalinen toimitus sähköpostiin heti maksun jälkeen
-        </li>
-        <li class="flex items-center gap-2">
-          <span class="text-emerald-400">✓</span> Kaupallinen käyttöoikeus omiin ja asiakasprojekteihin
-        </li>
-      </ul>
-
-      <button type="button" class="w-full mt-6 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold py-3 px-4 rounded-xl transition cursor-pointer text-sm">
-        Osta nyt (Lemon Squeezy)
-      </button>
+      <div class="bg-slate-900/60 border border-slate-800/80 p-4 rounded-xl">
+        <div class="text-emerald-400 font-bold text-sm mb-1">🛡️ Account-Wide</div>
+        <div class="text-xs text-slate-400 leading-normal">Blocks junk domains at the account level so future campaigns stay clean.</div>
+      </div>
+      <div class="bg-slate-900/60 border border-slate-800/80 p-4 rounded-xl">
+        <div class="text-emerald-400 font-bold text-sm mb-1">📊 Google Sheets Log</div>
+        <div class="text-xs text-slate-400 leading-normal">Automatically logs every excluded domain and game to your spreadsheet.</div>
+      </div>
     </div>
 
-    <!-- Yhteystiedot -->
+    <!-- Tuotekortti & Hinta -->
+    <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-8 text-left shadow-2xl relative overflow-hidden">
+      <div class="flex justify-between items-baseline border-b border-slate-800 pb-5">
+        <div>
+          <h2 class="text-xl font-bold text-white tracking-tight">Lifetime Script License</h2>
+          <p class="text-slate-400 text-xs mt-0.5">Instant digital download • Unlimited personal & client use</p>
+        </div>
+        <div class="text-right">
+          <span class="text-3xl font-black text-emerald-400">€69</span>
+          <span class="text-slate-500 text-xs block font-medium">One-time payment</span>
+        </div>
+      </div>
+      
+      <div class="mt-6 space-y-3 text-xs sm:text-sm text-slate-300">
+        <div class="flex items-start gap-2.5">
+          <span class="text-emerald-400 font-bold">✓</span>
+          <span><strong>Full JavaScript source code:</strong> Lightweight, fast, and runs directly inside Google Ads.</span>
+        </div>
+        <div class="flex items-start gap-2.5">
+          <span class="text-emerald-400 font-bold">✓</span>
+          <span><strong>Safe Dry-Run mode:</strong> Preview flagged placements and verify results before applying exclusions.</span>
+        </div>
+        <div class="flex items-start gap-2.5">
+          <span class="text-emerald-400 font-bold">✓</span>
+          <span><strong>README setup guide:</strong> Step-by-step setup in under 3 minutes. No developer experience required.</span>
+        </div>
+        <div class="flex items-start gap-2.5">
+          <span class="text-emerald-400 font-bold">✓</span>
+          <span><strong>Agency friendly:</strong> Deploy across your own campaigns or use on client accounts freely.</span>
+        </div>
+      </div>
+
+      <!-- Ostonappi (Liitä Lemon Squeezy checkout -linkki tähän) -->
+      <a href="#" class="inline-block text-center w-full mt-7 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold py-3.5 px-4 rounded-xl transition cursor-pointer text-sm shadow-lg shadow-emerald-500/10">
+        Get PMax Junk Excluder (€69)
+      </a>
+
+      <p class="text-center text-[11px] text-slate-500 mt-3">
+        Instant ZIP package delivery to your email after checkout.
+      </p>
+    </div>
+
+    <!-- Asiakastuki -->
     <div class="mt-8 text-xs text-slate-400">
-      Kysymyksiä tuotteesta tai tuesta? Ota yhteyttä:  
-      <a href="mailto:hagrid247@gmail.com" class="text-emerald-400 hover:underline block mt-1">support@solvessa.com</a>
+      Have questions before purchasing? Reach out directly at  
+      <a href="mailto:support@solvessa.com" class="text-emerald-400 hover:underline">support@solvessa.com</a>
     </div>
   </main>
 
-  <!-- Lemon Squeezyn vaatimat ehdot -->
-  <footer class="border-t border-slate-900 py-8 text-xs text-slate-500 bg-slate-950">
-    <div class="max-w-xl mx-auto px-5 space-y-4">
-      <div class="flex justify-center gap-6 text-slate-400">
-        <a href="#ehdot" class="hover:text-emerald-400 underline">Palautusehdot</a>
-        <a href="#ehdot" class="hover:text-emerald-400 underline">Käyttöehdot</a>
-        <a href="#ehdot" class="hover:text-emerald-400 underline">Tietosuoja</a>
+  <!-- Lemon Squeezyn vaatimat juridiset ehdot -->
+  <footer class="border-t border-slate-900 py-10 text-xs text-slate-500 bg-slate-950">
+    <div class="max-w-2xl mx-auto px-5 space-y-5">
+      <div class="flex justify-center gap-6 text-slate-400 font-medium">
+        <a href="#policies" class="hover:text-emerald-400 transition">Refund Policy</a>
+        <a href="#policies" class="hover:text-emerald-400 transition">Terms of Service</a>
+        <a href="#policies" class="hover:text-emerald-400 transition">Privacy & Delivery</a>
       </div>
       
-      <div id="ehdot" class="text-left text-slate-400 bg-slate-900/60 border border-slate-800 p-4 rounded-xl space-y-2 leading-relaxed">
-        <p><strong>Palautusehdot:</strong> Koska kyseessä on välittömästi toimitettava digitaalinen tuote (lähdekoodi), ostopäätös on sitova. Jos koodissa ilmenee kriittinen tekninen virhe jota emme pysty korjaamaan, myönnämme täyden hyvityksen 14 päivän kuluessa ostosta.</p>
-        <p><strong>Toimitus:</strong> Saat latauslinkin ja koodin suoraan antamaasi sähköpostiosoitteeseen heti maksun vahvistuttua.</p>
+      <div id="policies" class="text-left text-slate-400 bg-slate-900/60 border border-slate-800 p-5 rounded-xl space-y-3 leading-relaxed text-[11px]">
+        <p>
+          <strong class="text-slate-200">Delivery:</strong> Digital products are delivered immediately upon successful payment via an automated download link sent to the provided email address.
+        </p>
+        <p>
+          <strong class="text-slate-200">Refund Policy:</strong> Due to the immediate delivery nature of downloadable source code, sales are generally final. However, if you experience an unresolved technical flaw preventing the script from running in your Google Ads account, we offer a full 14-day refund from the purchase date.
+        </p>
+        <p>
+          <strong class="text-slate-200">Terms of Service:</strong> The script is provided "as is". You are granted a non-exclusive license to use and modify the code across personal and client Google Ads accounts. Reselling or distributing the raw source code package is prohibited.
+        </p>
       </div>
 
-      <p class="text-center text-slate-600">© 2026 Solvessa Systems. Kaikki oikeudet pidätetään.</p>
+      <p class="text-center text-slate-600 text-[11px]">
+        © 2026 Solvessa Systems. All rights reserved. Not affiliated with Google LLC.
+      </p>
     </div>
   </footer>
 
